@@ -6,7 +6,8 @@ It provides a PhoneNumber class that can format phone numbers depending on the r
 == Installation
 
 Gem:: <tt>gem install phoney</tt>
-Source:: <tt>git clone git://github.com/habermann24/phoney.git</tt>
+Source:: <tt>http://github.com/habermann24/phoney.git</tt>
+Git Clone:: <tt>git clone git://github.com/habermann24/phoney.git</tt>
 
 == Feature overview
 
@@ -74,6 +75,14 @@ When given a symbol you can let the parser guess the best format and pass in one
     
     # :local even omits the area code and assumes a default area, so be careful!
     pn.format(:local) # => "46 5465 46"
+
+== AUTHORS
+
+- Jan Habermann
+
+== CONTRIBUTORS
+
+- Bruno Mamona (bmamona)
 
 == TODOs
 
